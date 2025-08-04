@@ -1,0 +1,78 @@
+body {
+    margin: 0;
+    font-family: 'Segoe UI', sans-serif;
+    background: linear-gradient(to bottom, #002b5c, #003366);
+    color: white;
+  }
+  
+  .container {
+    max-width: 800px;
+    margin: auto;
+    padding: 2rem;
+  }
+  
+  h1, h2 {
+    color: #ffdb58;
+  }
+  
+  ol {
+    padding-left: 1.2rem;
+  }
+  
+  .form-section {
+    background-color: #001f3f;
+    padding: 2rem;
+    border-radius: 8px;
+    margin-bottom: 2rem;
+  }
+  
+  input, button {
+    display: block;
+    width: 100%;
+    margin: 1rem 0;
+    padding: 0.8rem;
+    font-size: 1rem;
+    border: none;
+    border-radius: 4px;
+  }
+  
+  input {
+    background-color: #fff;
+    color: #000;
+  }
+  
+  button {
+    background-color: #ffdb58;
+    color: #000;
+    font-weight: bold;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background-color: #ffd700;
+  }
+  
+  .sobre .perfil {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    margin: 2rem 0;
+  }
+  
+  .sobre img {
+    width: 120px;
+    border-radius: 50%;
+  }
+  
+  .depoimentos .cliente {
+    display: flex;
+    align-items: flex-start;
+    margin: 1.5rem 0;
+    gap: 1rem;
+  }
+  
+  .depoimentos img {
+    width: 80px;
+    border-radius: 50%;
+  }
+  
